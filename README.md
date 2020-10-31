@@ -14,6 +14,7 @@
 * The basic calculator is a 4 function calculator that will offer you calculations form the four basic functions of addition, subtraction, multiplication, and division.
 * For more advanced users, the scientific calculator includes the four functions as well as trigonometric calculations.
 * So far, both calculators will be text based, therefore, requireing the user to press run in the console window to start the calcuator programs, however, soon a GUI will be added to allow ease of use without external consoles.
+* To learn more about the calculators themselves, their repositories are linked below the console windows. 
 ## Code Breakdown
 * Jinja: This is a useful templating tool that is used in our project to manage the links and different aspects of structuring around our website. The Jinja works in tandem with our html and python so the linkage between the backend and frontend is seamless.
 * Bootstrap: Our navigation bar is sourced from Boostrap. The navbar is another level of integration with the backend as the navbar is directly connected to the app.routes which allows us to put our url decorations in main.py to use and have different directories each with a unique project in this case calculators.
