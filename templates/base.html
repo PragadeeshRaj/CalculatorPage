@@ -3,6 +3,8 @@
 {% set source = projects.get_source() %}
 {% set projects = projects.get_projects() %}
 {% set name = source["name"] %}
+{% set embedbasic = source["embedbasic"] %}
+{% set embedscientific = source["embedscientific"] %}
 {% set github = source["github"] %}
 
 
@@ -32,7 +34,7 @@
           <div class="row justify-content-end" style="padding-top: 2%; padding-bottom: 2%; padding: 2%;">
             <div class="col-2" style="text-align: right;">
               {% block info %}
-              <a><h5>{{name}}</h5></a>
+                <a><h5>{{name}}</h5></a>
               <a href={{github}} target="_blank"><i class="fa fa-github"></i></a> 
               {% endblock %}
             </div>
