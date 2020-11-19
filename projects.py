@@ -1,8 +1,8 @@
 def setup():
     name = "P2-Einsteins"
     github = "https://github.com/PragadeeshRaj/Raj-Academy"
-    embedbasic = "https://basiccalc.PragadeeshRaj.repl.run"
-    embedscientific = "https://Calc.aymankazi9.repl.run"
+    embedbasic = "https://repl.it/@PragadeeshRaj/basiccalc?lite=true"
+    embedscientific = "https://repl.it/@aymankazi9/Calc?lite=true" #"https://Calc.aymankazi9.repl.run"
     source = {"name": name, "github": github, "embedbasic": embedbasic, "embedscientific": embedscientific}
 
     project1 = "Basic Calculator"
